@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>"Video Play"</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+	font-family: arial, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+    background-image:url('https://hdwallsource.com/img/2017/7/anime-girl-hd-	desktop-wallpaper-61371-63190-hd-wallpapers.jpg'); 
+	height: 70%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	padding-top:50px;
+	padding-bottom:50px;
+    text-align: center;
+	color: white;
+    
+}
+
+/* Style the text Header */
+.text-header {
+	background-color:#000;
+	padding-left : 10px;
+	padding-right : 10px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+    width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+	margin-left:10%;
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column.side, .column.middle {
+        width: 100%;
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="topnav">
+  <a href="#">AMVINDO</a>
+</div>
+
+<div class="header">
+  <h1>
+  <span class="text-header">
+  VIDEO TITLE
+  </span>
+  </h1>
+</div>
+
+<div class="row">
+  <div class="column middle">
+  <video width="640" height="480" controls>
+		<source src="C:\Users\AdryanLuthfi\Desktop\Dekstop\Project\IYON (G)old Intro.mp4" type="video/mp4">
+		Video Title
+	</video>
+	<br>
+    <h2>INI JUDULNYA APA YA</h2>
+    <p>
+	Disini info infonya gan <br>
+	Disini info infonya gan <br>
+	Disini info infonya gan <br>
+	Disini info infonya gan <br>
+	</p>
+  </div>
+  <div class="column side">
+    <h2>RECOMMENDATION VIDEO</h2>
+    <p>
+	Disini video yang lainnya cuy <br>
+	Disini video yang lainnya cuy <br>
+	Disini video yang lainnya cuy <br>
+	Disini video yang lainnya cuy <br>
+	</p>
+  </div>
+</div>
+  
+</body>
+</html>
