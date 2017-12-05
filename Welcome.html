@@ -19,7 +19,12 @@ body {
 .topnav {
     overflow: hidden;
     background-color: #333;
-	
+	position: fixed;
+	top: 0;
+    width: 100%;
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 /* Style the topnav links */
@@ -98,13 +103,17 @@ body {
 <body>
 
 <div class="topnav" >
-  <a href="#">AMVINDO</a>
+  <a href="#home">AMVINDO</a>
+  <a style="float:right; margin-top:-25px"; href="Search.html"><form action="" ><br><img type="submit" id="search" style="width:20px;height:20px;" src="https://lh6.googleusercontent.com/tGBnMZBgfQFk4GKAV35Zcme41IALcjE5b3frtaQ4sgg6CwfHOZzMaFQ6zYnppJ5kzOwC_2djzcWzmhM=w1366-h676"></button></form></a>
+  <a style="float:right; margin-top:-25px"><form action="" ><br><input type="text" placeholder="Search AMV"></form></a>
+  <a style="float:right; margin-top:-5px" ; href="#account"><img src="https://lh4.googleusercontent.com/HDuetG_o0ksnMoTuKpHq_MMb9DTOppN2ui6v1dqHAFjd0_1srEAwu_kOxz9s2WxR3FkF2GTqvpD7AZc=w1366-h676" style="width:30px;height:20px;" ></a>
 </div>
 
 <div class="row">
 
-  <div class="column middle" style = "position: fixed; ">
-	<img src="https://hdwallsource.com/img/2017/7/anime-girl-hd-desktop-wallpaper-61371-63190-hd-wallpapers.jpg" alt="Tester" style="width:1012px;height:573.75px;">
+  <div class="column middle" style = "position: fixed; margin-top:48px; ">
+	<a href="VideoPlay.html"><img src="https://hdwallsource.com/img/2017/7/anime-girl-hd-desktop-wallpaper-61371-63190-hd-wallpapers.jpg" alt="Tester" style="width:965px;height:573.75px;">
+	</a>
 	<div class="mainfooter">
 		<p>INI JUDULNYA APA YA</p>
 	</div>
