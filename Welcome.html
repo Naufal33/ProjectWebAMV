@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<<<<<<< HEAD
 	<head>
 		<title>Welcome To AMVINDO</title>
 		<meta charset="utf-8">
@@ -156,4 +157,198 @@
 		</div>
   
 	</body>
+=======
+<head>
+<title>Welcome To AMVINDO</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+* {
+    box-sizing: border-box;
+	font-family: arial, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+	position: fixed;
+	top: 0;
+    width: 100%;
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+    float: left;
+}
+
+/* Left and right column */
+.column.side {
+	background-color: #457baa;
+    width: 25%;
+	float: right;
+	display: block;
+	height: 80%;
+	padding: 30px;
+	color: #ffffff;
+	
+}
+
+/* Middle column */
+.column.middle {
+    width: 75%;
+
+	
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+/* Style the footer */
+.footer {
+	position:absolute;
+	bottom:0;
+	width:75%;
+	height:100px;   /* Height of the footer */
+    background-color: #06415f;
+}
+
+/* Style the mainfooter */
+.mainfooter {
+	position: fixed;
+	bottom: 0;
+	display: block;
+    color: #ffffff;
+    padding: 0.5px;
+    text-align: left;
+	background-color: #333;
+	margin-bottom : 100px;
+	width:75%;
+}
+
+</style>
+</head>
+<body>
+
+<div class="topnav" >
+  <a href="#home">AMVINDO</a>
+  <a style="float:right; margin-top:-25px"; href="Search.html"><form action="" ><br><img type="submit" id="search" style="width:20px;height:20px;" src="https://lh6.googleusercontent.com/tGBnMZBgfQFk4GKAV35Zcme41IALcjE5b3frtaQ4sgg6CwfHOZzMaFQ6zYnppJ5kzOwC_2djzcWzmhM=w1366-h676"></button></form></a>
+  <a style="float:right; margin-top:-25px"><form action="" ><br><input type="text" placeholder="Search AMV"></form></a>
+  <a style="float:right; margin-top:-5px" ; href="#account"><img src="https://lh4.googleusercontent.com/HDuetG_o0ksnMoTuKpHq_MMb9DTOppN2ui6v1dqHAFjd0_1srEAwu_kOxz9s2WxR3FkF2GTqvpD7AZc=w1366-h676" style="width:30px;height:20px;" ></a>
+</div>
+
+<div class="row">
+
+  <div class="column middle" style = "position: fixed; margin-top:48px; ">
+	
+	
+	<div class="mainfooter">
+	</div>
+	<a href="VideoPlay.html">
+	<div class="w3-content w3-display-container">
+  <img class="mySlides" src="https://www.walldevil.com/wallpapers/h12/thumb/wallpaper-anime-cool-headphones-background-images-desktop.jpg" style="width:100%">
+  <img class="mySlides" src="http://orig02.deviantart.net/6553/f/2013/086/e/d/anime_girl_vocaloid_beautiful_by_opty_face-d5zghsf.png" style="width:100%">
+  <img class="mySlides" src="https://orig00.deviantart.net/826b/f/2014/137/b/4/dmmd___sly_blue_by_miyukiko-d7iopft.jpg" style="width:100%">
+  <img class="mySlides" src="http://i40.tinypic.com/4rdrn5.png" style="width:100%">
+	</a>
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+  </div>
+  
+  
+  <div class="column side">
+    <h2>TITLE</h2>
+    <p style="color:Yellow";>Video title "Ini Judulnya apa ya"</p>
+	<h2>CATEGORY</h2>
+	<p style="color:Yellow";>AMV / MEP / Collab"</p>
+	<h2>AUTHOR / HOST</h2>
+	<p style="color:Yellow";>Author for AMV and Host For MEP/Collab"</p>
+	<h2>DESCRIPTION</h2>
+	<p style="color:Yellow";>
+	Descpription about this AMV<br>
+	List Anime & Editor in here<br>
+	Anime 1<br>
+	Anime 2<br>
+	Anime 3<br>
+	...<br>
+	Audio List in here<br>
+	...<br>
+	Software info in here<br>
+	...<br>
+	Info Tambahan lainnya<br>
+	...<br>
+	</p>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+  </div>
+</div>
+
+
+</body>
+>>>>>>> c1ee08aa0d0b3c4d399feb0c3150d01ab0e6073c
 </html>
